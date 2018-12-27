@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f44336</color>
+    <color name="colorPrimaryDark">#b71c1c</color>
+    <color name="colorSecondary">#2196f3</color>
+    <color name="colorSecondaryDark">#0d47a1</color>
+    <color name="colorAccent">#2196f3</color>
+    <color name="black">#000000</color>
+    <color name="colorButton_1">#b6FFFFFF</color>
+
+    <color name="floatingSearch_backgroundColor">#FFFFFF</color>
+    <color name="floatingSearch_viewTextColor">#f44336</color>
+    <color name="floatingSearch_hintTextColor">#BCBCBC</color>
+    <color name="floatingSearch_dividerColor">#E6E6E6</color>
+    <color name="floatingSearch_clearBtnColor">#b71c1c</color>
+    <color name="floatingSearch_leftActionColor">#b71c1c</color>
+    <color name="floatingSearch_menuItemIconColor">#b71c1c</color>
+    <color name="floatingSearch_suggestionRightIconColor">#000000</color>
+    <color name="floatingSearch_actionMenuOverflowColor">#f44336</color>
+    <color name="white">#ffffff</color>
+</resources>

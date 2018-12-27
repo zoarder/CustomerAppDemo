@@ -1,0 +1,694 @@
+<resources>
+    <string name="app_name">Customer App Demo</string>
+    <string name="search">Search</string>
+    <string name="action_location">My Location</string>
+
+
+    <string name="title_exit_dialog">Do you want to exit?</string>
+    <string name="dialog_confirm_text">YES</string>
+    <string name="dialog_cancel_text">NO</string>
+    <string name="drawer_menuigation_drawer_open">Open drawer_menuigation drawer</string>
+    <string name="drawer_menuigation_drawer_close">Close drawer_menuigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Toolbar titles when drawer_menuigation menu item is selected -->
+    <string-array name="drawer_menu_item_activity_titles">
+        <item>HOME</item>
+        <item>BM LEARNING MATERIAL</item>
+        <item>CAMPAIGN INFORMATION</item>
+        <item><![CDATA[SNAP & SOLVE]]></item>
+        <item>ABOUT US</item>
+        <item>ORDER MANAGEMENT</item>
+        <item>STORE LOCATOR</item>
+        <item>CONTACT US</item>
+    </string-array>
+
+    <string-array name="deposit_products_item">
+        <item>Savings Deposit</item>
+        <item>Current Deposit</item>
+        <item>Term(Special Notice) Deposit</item>
+        <item>Term(Fixed) Deposit</item>
+        <item>Foreign Currency(RFC) Deposit</item>
+        <item>Foreign Currency()NFC Deposit</item>
+        <item>Monthly Savings Scheme</item>
+        <item>Monthly Income Scheme</item>
+        <item>Double Benefit Scheme</item>
+        <item>Millionaire Income Scheme</item>
+        <item>Apon Thikana Shanchoy Prakalpa (ATSP)</item>
+        <item>Luxury Savings Deposit Scheme (LSDS)</item>
+    </string-array>
+
+    <string-array name="deposit_products_content" formatted="false">
+        <item><![CDATA[National Bank Limited offers customers a hassel free and low charges savings account through the branches all over bangladesh.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b><a href=\"http://www.nblbd.com/deposit_int_rate.php\">Click here to see</a> Interest Rate<BR/><b>2. </b><a href=\"http://www.nblbd.com/shedule_of_charges.php\">Click here to see</a> Minimum Balance & Maintenance Charges<BR/><b>3. </b>No hidden costs.<BR/><b>4. </b>Standing Instruction Arrangement are available for operating account.]]></item>
+        <item><![CDATA[National Bank Limited offers customers current deposit facility for day-to-day business transcaction without any restriction.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b><a href=\"http://www.nblbd.com/deposit_int_rate.php\">Click here to see</a> Interest Rate<BR/><b>2. </b><a href=\"http://www.nblbd.com/shedule_of_charges.php\">Click here to see</a> Minimum Balance & Maintenance Charges<BR/><b>3. </b>Standing Instruction Arrangement are available for operating account.<BR/><b>4. </b>Easy access to our other facilities.]]></item>
+        <item><![CDATA[National Bank Limited offers interest on customer\'s special notice deposit account and gives facility to withdraw money any time.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b><a href=\"http://www.nblbd.com/deposit_int_rate.php\">Click here to see</a> Interest Rate<BR/><b>2. </b><a href=\"http://www.nblbd.com/shedule_of_charges.php\">Click here to see</a> Minimum Balance & Maintenance Charges<BR/><b>3. </b>Standing Instruction Arrangement are available for operating account.]]></item>
+        <item><![CDATA[National Bank Limited offers fixed term savings that will scale up your savings amount wtih the time.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b><a href=\"http://www.nblbd.com/deposit_int_rate.php\">Click here to see</a> Interest Rate<BR/><b>2. </b>Any amount can be deposited.<BR/><b>3. </b>Premature encashment facility is available.<BR/><b>4. </b>Overdraft facility available against term receipt.]]></item>
+        <item><![CDATA[National Bank Limited gives opportunity to maintain foreign currency account thorugh it\'s Authorized Delear Branches.Bangladesh nationals residing abroad or Foreign nationals residing abroad or Bangladesh and foreign firms operating in Bangladesh or abroad or Foreign missions and their expatriate employees.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>No initial deposit is required to open the account.<BR/><b>2. </b>Interest will be offered 1.75% for US Dollar Account , 3.00 % for EURO Account and 3.25% for GBP Account.<BR/><b>3. </b>They will get interest on daily product basis on the credit balance (minimum balance of US$ 1,000/- or GBP 500/- at least for 30 days) maintaining in the account.]]></item>
+        <item><![CDATA[National Bank Limited gives opportunity to maintain foreign currency account thorugh it\'s Authorized Delear Branches. All non – resident Bangladeshi nationals and persons of Bangladesh origin including those having dual nationality and ordinarily residing abroad may maintain interest bearing NFCD Account.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>NFCD Account can be opened for One month, Three months, Six months and One Year through US Dollar, Pound Starling, Japanese Yen and Euro.<BR/><b>2. </b>The initial minimum amount of $1000 or 500 Pound Starling or equivalent other designated currency.<BR/><b>3. </b>Interest is paid on the balance maintain in the Account. This interest is tax free in Bangladesh.]]></item>
+        <item><![CDATA[National Bank Limited offers monthly savings scheme for it\'s retail customers.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Monthly installments of deposit will be Tk.500/-, Tk.1,000/- , Tk.2,000/- ,Tk.3,000, Tk.4000/- , Tk.5,000/- , Tk.10,0000/- , Tk.20,0000/- ,Tk.30,0000/- ,Tk.50,0000/-.<BR/><b>2. </b>Account may be opened for any installment and term , which is not changeble.<BR/><b>3. </b>A person is allowed to open more than one account for different installment in a Branch/ Bank.]]></item>
+        <item><![CDATA[Under this scheme one will deposit a minimum of Tk.1,00,000/- or its multiple up to Tk.10,000,000/-.]]></item>
+        <item><![CDATA[Dreams come true. National Bank Limited now offers Double Benefit Account for it\'s customers. The benefits under this scheme shall become double after 09 (Nine) years 06 (Six) months.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Deposit of Tk.1,00,000/- and its multiple with out any upper limit shall be acceptable under this scheme.<BR/><b>2. </b>A person is allowed to open more than one Double Benefit Account.<BR/><b>3. </b>The account may be opened either singly or jointly.<BR/><b>4. </b>All Double Benefit Account holder shall be offered with free Life Insurance Policy under this scheme.]]></item>
+        <item><![CDATA[Under this scheme one will deposit a fixed amount on monthly basis for 4, 6, 9 or 12 years and on maturity he/she will be just a millionaire.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Deposit of fixed monthly amount for 4, 6, 9 or 12 years. Deposit size will be based on tenure. Upon maturity the depositor will get Tk. 10,00,000/-.<BR/><b>2. </b>A person is allowed to open more than one MDS Account.<BR/><b>3. </b>The account may be opened either singly or jointly.]]></item>
+        <item><![CDATA[<b>BENEFIT FEATURES:</b><BR/><b>1. </b>The maturity period of the deposit will be 5, 8 & 10 years.<BR/><b>2. </b>Upon maturity, the depositor either can en-cash the terminal amount, or can apply for loan facility, up to 100% of the terminal amount, for the purpose of purchasing Flat at the prevailing rate of interest of the bank after complying with the procedures, terms & conditions of the Bank.<BR/><b>3. </b>Loan facility up to 80% of the amount received from the customer can be availed at the prevailing rate of the Bank during the scheme period.<BR/><b>4. </b>Locker facilities can be availed at 50% rent for the first year subject to the availability of locker facility in the respective branch.]]></item>
+        <item><![CDATA[<b>BENEFIT FEATURES:</b><BR/><b>1. </b>The maturity period of the deposit will be 2, 3, 4 & 5 years.<BR/><b>3. </b>Loan facility up to 80% of the amount received from the customer can be availed at the prevailing rate of the Bank during the scheme period.<BR/><b>4. </b>Locker facilities can be availed at 50% rent for the first year subject to the availability of locker facility in the respective branch.]]></item>
+    </string-array>
+
+    <string-array name="credit_products_content" formatted="false">
+        <item><![CDATA[NBL offers overdraft facility for corporate customers for day-to day business operations.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Low charges in overdraft account maintenance.<BR/><b>2. </b>Facility is available against deposit receipt or mortgage property.<BR/><b>3. </b>Low interest rate 13-16%.]]></item>
+        <item><![CDATA[National Bank Limited offers leasing facility for clients with easy installment facility.<BR/><BR/><b>FINANCING AREA</b><BR/><b>1. </b>Capital machinary.<BR/><b>2. </b>Different equipments.<BR/><b>3. </b>Gas, Diesel generator and Power plant.<BR/><b>4. </b>Medical equipments.<BR/><b>5. </b>Lift or elevator.<BR/><b>6. </b>Inroformantion Technology equipments.<BR/><b>7. </b>Construction equipments.<BR/><b>8. </b>Consumer durables.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Competitive monthly rental.<BR/><b>2. </b>Tax benefit.<BR/><b>3. </b>Fast processing.<BR/><b>4. </b>Easy handover after leasing period.]]></item>
+        <item><![CDATA[NBL offers home loan facility for purchasing flats or construction of house.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Financing amount extends upto 70% or Tk. 75,00,000 which is highest of total consturction cost.<BR/><b>2. </b>Grace period avilable upto 9 months in flat purchase or 12 months in consturction.<BR/><b>3. </b>Competitive interest rate.<BR/><b>4. </b>No application or processing fee.<BR/><BR/><b>ELIGIBILITY</b><BR/><b>1. </b>Any bangladeshi citizen or NRB, who is capable of repayment can apply for this loan.]]></item>
+        <item><![CDATA[NBL offers financial support to small businessmen/enterprise with new products named "Festival Small Business Loan" and "NBL Small Business Loan" has been introduced in the Bank.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Maximum Tk.3.00 lac (Festival Scheme) and Maximum Tk.5.00 lac (Small Business Scheme).<BR/><b>2. </b>3 Months (Festival Scheme) and 5 years (including 1 month grace period (Small Business Scheme)).<BR/><b>3. </b>Collateral Free Advance.<BR/><BR/><b>ELIGIBILITY</b><BR/><b>1. </b>Any genuine and small businessmen/ entrepreneurs/enterprise having honesty, sincerity, and integrity.]]></item>
+        <item><![CDATA[NBL offers consumer credit facility for retail customers.<BR/><BR/><b>FINANCING ITEMS</b><BR/><b>1. </b>Electornics consumer products.<BR/><b>2. </b>Computer or Computer acessories.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Fast processing.<BR/><b>2. </b>Competitive interest rate.<BR/><b>3. </b>No application or processing fee.<BR/><b>4. </b>Easy monthly installment.]]></item>
+        <item><![CDATA[NBL provides comprehensive banking services to all. types of commercial concerns such as in the industrial sector for export-import purpose as working capital, packing credit, trade finance,Issuance of Import L/Cs,Advising and confirming Export L/Cs. - Bonds and Guarantees.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Low interest rate 13.00%-14.50%.<BR/><b>2. </b>Minimum processing time.<BR/><b>3. </b>Low service charges.]]></item>
+        <item><![CDATA[Agriculture plays a vital role in Bangladesh economy and the development of our country significantly depends upon the productivity of rural areas. Realizing the importance of agricultural finance in creating self-employment opportunities and socio-economic development of the country, National Bank Limited has been providing Agriculture & Rural credit facilities through its own branches across the country since its inception.<BR/><BR/><b>FEATURES</b><BR/><b>1. </b>Credit for cultivation of Crops & farming of fishery, poultry & livestock and purchasing of agriculture tools & irrigation equipments.<BR/><b>2. </b>Credit for cultivation of Pulse, Oil Seeds, Spices & Maize under Concessional rate of interest.<BR/><b>3. </b>Credit for solar home system, solar irrigation system and Bio-gas plant under Refinance Scheme of Bangladesh Bank.]]></item>
+        <item><![CDATA[National Bank Limited has been working towards transformation of fortune of the country’s mass people. The Bank has been extending its helping hand by way of financing at easy terms & conditions to the marginal, underprivileged & low income generating people and the people of areas of natural and man-made disasters.<BR/><BR/><b>FEATURES</b><BR/><b>1. </b>Target people: ‘Daridra Mukti’ is mainly aimed to small entrepreneurs and professionals, cottage and handicraft industries, and marginal & landless farmers. These entrepreneurs, professionals and farmers can open their Bank Account by depositing only Tk.10.00. Potter, blacksmith, fisherman, tailors, flower-seller, hawker, fruit-seller, vegetable-seller, rickshaw puller/van puller, small & cottage industries, weavers, bakery item manufactures, marginal businessmen and farmers of the under-privileged areas, and freedom fighters and their children are eligible to enjoy this security-free and easily available loan facility.<BR/><b>2. </b>Interest rate: Low rate of interest on simple basis.<BR/><b>3. </b>Collateral security: No collateral security.<BR/><b>4. </b>Loan limit: Maximum Tk.1.00 lac.]]></item>
+    </string-array>
+
+    <string-array name="credit_products_item">
+        <item>Overdraft</item>
+        <item>Lease Financing</item>
+        <item>House Building</item>
+        <item>Small Medium Enterprise</item>
+        <item>Consumer Credit Scheme</item>
+        <item>Trade Finance</item>
+        <item><![CDATA[Agriculture & Rural]]></item>
+        <item>Daridra Mukti</item>
+    </string-array>
+
+    <string-array name="about_us_item">
+        <item><![CDATA[History & Heritage]]></item>
+        <item><![CDATA[Mission & Vision]]></item>
+        <item>Sponsor Directors</item>
+        <item>Board of Directors</item>
+        <item>Executive Committee</item>
+        <item>Audit Committee</item>
+        <item>Risk Management Committee</item>
+        <item>Management Committee</item>
+        <item>Asset Liability Committee</item>
+        <item>Photo Gallery</item>
+    </string-array>
+
+    <string-array name="csr_item">
+        <item>Employment</item>
+        <item>Education</item>
+        <item><![CDATA[Sports & Cul. Activities]]></item>
+    </string-array>
+
+    <string-array name="csr_content" formatted="false">
+        <item><![CDATA[National Bank Limited has been continuously creating new fields of employment every year by way of expansion of its business activities and branch networks. The Bank consolidated the "One-Bank One-Family" concept since its inception and sought to create a work culture that excites and motivates staff. The Bank\'s goal is to make it "the best place" to work in by creating an exciting, healthy, caring and productive environment for all levels of staff. NBL recurrently arranges cultural programs, annual picnics etc for their staffs. NBL, which has 3,442 employees provides due importance for the well being of its employees by offering attractive remuneration and other fringe benefits. So far NBL has contributed Tk. 160.12 Lac as medical expenses to its employees and others.]]></item>
+        <item><![CDATA[National Bank Limited foundation was established in 1989 to fulfill the responsibilities of welfare for the society. National Bank Public School and College in Moghbazar, Dhaka has been established where about 997 students are studying in the school section from class 1 to class 10, while 121 students are at the college section . In 2010, 93 students appeared at the SSC examination and 92 at the H.S.C examination and in both the examinations 100% came out successfully.<BR/>The bank has been accommodating prospective graduates of recognized universities for completing their internship. NBL also awarded scholarship to the brilliant children of the employees of the bank and contributed Tk, 8.12 Lac to various educational sectors. Sports and cultural activities.]]></item>
+        <item><![CDATA[National Bank Limited has a tradition of patronizing and sponsoring sports and cultural activities of the Country. The "National Bank Volleyball league - 2007" was arranged under the patronization of the Bank. It has also arranged annual picnics as a means of recreation for its executives, officers and staff. In 2009 the amount of donation in sports was 4.65 lac Taka and it is increased substantially to 64.65 lac Taka.]]></item>
+    </string-array>
+
+    <string-array name="cards_item">
+        <item>Gold International</item>
+        <item>Silver International</item>
+        <item>Gold Local</item>
+        <item>Silver Local</item>
+        <item>Credit Cards</item>
+        <item>Power Cards</item>
+    </string-array>
+
+    <string-array name="cards_content" formatted="false">
+        <item><![CDATA[NBL Credit Card is accepted in many merchant outlet around the world. Our wide range of merchants include hotels, restaurants, airlines, & travel agents, shopping malls and departmental stores, hospitals & diagnostic centers, jewelers, electronics & computer shops and many more.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Dual Currency Card Facility.<BR/><b>2. </b>Lowest Rate of Interest.<BR/><b>3. </b>Lowest Card Fees. Special Discount of Card Fee *** condition applicable.<BR/><b>4. </b>You can transfer 80% amount of your Local Card Limit to any NBL A/c or have Pay Order Facility.<BR/><b>5. </b>No Excess Limit Charge.<BR/><b>6. </b>No Hidden Charges.]]></item>
+        <item><![CDATA[NBL Credit Card is accepted in many merchant outlet around the world. Our wide range of merchants include hotels, restaurants, airlines, & travel agents, shopping malls and departmental stores, hospitals & diagnostic centers, jewelers, electronics & computer shops and many more.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Dual Currency Card Facility.<BR/><b>2. </b>Lowest Rate of Interest.<BR/><b>3. </b>Lowest Card Fees. Special Discount of Card Fee *** condition applicable.<BR/><b>4. </b>You can transfer 80% amount of your Local Card Limit to any NBL A/c or have Pay Order Facility.<BR/><b>5. </b>No Excess Limit Charge.<BR/><b>6. </b>No Hidden Charges.]]></item>
+        <item><![CDATA[NBL Credit Card is accepted in many merchant outlet around the world. Our wide range of merchants include hotels, restaurants, airlines, & travel agents, shopping malls and departmental stores, hospitals & diagnostic centers, jewelers, electronics & computer shops and many more.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Dual Currency Card Facility.<BR/><b>2. </b>Lowest Rate of Interest.<BR/><b>3. </b>Lowest Card Fees. Special Discount of Card Fee *** condition applicable.<BR/><b>4. </b>You can transfer 80% amount of your Local Card Limit to any NBL A/c or have Pay Order Facility.<BR/><b>5. </b>No Excess Limit Charge.<BR/><b>6. </b>No Hidden Charges.]]></item>
+        <item><![CDATA[NBL Credit Card is accepted in many merchant outlet around the world. Our wide range of merchants include hotels, restaurants, airlines, & travel agents, shopping malls and departmental stores, hospitals & diagnostic centers, jewelers, electronics & computer shops and many more.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Dual Currency Card Facility.<BR/><b>2. </b>Lowest Rate of Interest.<BR/><b>3. </b>Lowest Card Fees. Special Discount of Card Fee *** condition applicable.<BR/><b>4. </b>You can transfer 80% amount of your Local Card Limit to any NBL A/c or have Pay Order Facility.<BR/><b>5. </b>No Excess Limit Charge.<BR/><b>6. </b>No Hidden Charges.]]></item>
+        <item><![CDATA[NBL Credit Card is accepted in many merchant outlet around the world. Our wide range of merchants include hotels, restaurants, airlines, & travel agents, shopping malls and departmental stores, hospitals & diagnostic centers, jewelers, electronics & computer shops and many more.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>Dual Currency Card Facility.<BR/><b>2. </b>Lowest Rate of Interest.<BR/><b>3. </b>Lowest Card Fees. Special Discount of Card Fee *** condition applicable.<BR/><b>4. </b>You can transfer 80% amount of your Local Card Limit to any NBL A/c or have Pay Order Facility.<BR/><b>5. </b>No Excess Limit Charge.<BR/><b>6. </b>No Hidden Charges.]]></item>
+        <item><![CDATA[NBL Power Card is the first debit card for which you dont have to maintain any account with our any branch.<BR/><BR/><b>BENEFITS (CONDITION APPLY)</b><BR/><b>1. </b>It is a Pre-paid Card.<BR/><b>2. </b>Annual / Renewal Fee Tk. 200/- only.<BR/><b>3. </b>May be issued and refilled from RFCD/FC Account.<BR/><b>4. </b>Accepted at all VISA POS merchants.<BR/><b>5. </b>Cash withdrawl at all ATM booths bearing VISA and Q-cash logo(Except HSBC in Bangladesh).<BR/><b>6. </b>Drawing of Cash:<BR/><b>   (i) </b>from NBL ATMs - Free of charges<BR/><b>   (ii) </b>From ATMs under Q-cash network- Tk.10.00 per transaction<BR/><b>   (iii) </b>From other ATM - Tk. 100.00 per transaction.<BR/><b>7. </b>Cash Withdrawl Fee(aboard)-2.00% on the cash drawn amount or US$2.00, whichever is higher.<BR/><b>8. </b> 	Only 1% loading fee against both International and Local Power Card at the time of Refilling.<BR/><b>9. </b>Yearly Tk.100 for enrollment of SMS service.]]></item>
+    </string-array>
+
+    <string-array name="download_forms_item">
+        <item>Account Opening Form</item>
+        <item>KYC Form</item>
+        <item>Personal Information</item>
+        <item>Transaction Profile</item>
+        <item>Cheque Requisition</item>
+        <item>Account Opening Form (Front page)</item>
+        <item>Account Opening Form (Back page)</item>
+        <item>Letter of Guarantee</item>
+        <item>Personal Undertaking</item>
+        <item>Green Banking Policy (Revised)</item>
+        <item>Green Office Guide</item>
+        <item>Bangladesh Electronic Funds Transfer Network</item>
+    </string-array>
+
+    <string-array name="download_forms_urls" formatted="false">
+        <item>http://www.nblbd.com/download/AC_Opening_Form.pdf</item>
+        <item>http://www.nblbd.com/download/KYC.pdf</item>
+        <item>http://www.nblbd.com/download/Personal_information.pdf</item>
+        <item>http://www.nblbd.com/download/Transaction_Profile.pdf</item>
+        <item>http://www.nblbd.com/download/Cheque_Requisition.pdf</item>
+        <item>http://www.nblbd.com/download/card/Account_Opening_Form_%28Front_page%29.pdf</item>
+        <item>http://www.nblbd.com/download/card/Account_Opening_Form_%28Back_page%29.pdf</item>
+        <item>http://www.nblbd.com/download/card/Letter_of_Guarantee.pdf</item>
+        <item>http://www.nblbd.com/download/card/Personal_Undertaking.pdf</item>
+        <item>http://www.nblbd.com/download/GB-Policy%28Revised%29.pdf</item>
+        <item>http://www.nblbd.com/download/greenOffice_guidelines_for_NBL.pdf</item>
+        <item>http://www.nblbd.com/download/BEFTNOperatingrules.pdf</item>
+    </string-array>
+
+    <string-array name="schedule_of_charges_urls">
+        <item>http://www.nblbd.com/download/shedule_of_charges/schedule_of_charges_GBD_NBL-CircularLetterNo.3516.pdf</item>
+        <item>http://www.nblbd.com/download/shedule_of_charges/shedule_of_charges_foreign_exchange_NBL-Circular-No-3467.pdf</item>
+    </string-array>
+    <string-array name="schedule_of_charges_item" formatted="false">
+        <item>Schedule of charges for transactions relating to "General Banking Business"</item>
+        <item><![CDATA[Schedule of charges for transactions related to "Foreign Exchange & International Trade"]]></item>
+    </string-array>
+    <string-array name="annual_report_urls" formatted="false">
+        <item>http://www.nblbd.com/Annual_Report/NBL_Annual_Repot_2015.pdf</item>
+        <item>http://www.nblbd.com/basel3/basel3_2015.pdf</item>
+        <item>http://www.nblbd.com/basel2/DISCLOSURE_UNDER_BASELII_2014.pdf</item>
+        <item>http://www.nblbd.com/basel2/DISCLOSURE_UNDER%20BASEL%20II%202013.pdf</item>
+        <item>http://www.nblbd.com/basel2/DISCLOSURE_UNDER_BASELII_2012.pdf</item>
+        <item>http://www.nblbd.com/basel2/Basel2-2011.pdf</item>
+        <item>http://www.nblbd.com/basel2/Basel2-2010.pdf</item>
+    </string-array>
+    <string-array name="annual_report_item">
+        <item>Annual Report - 2015</item>
+        <item>Disclosure Framework - Annual Report 2015</item>
+        <item>Disclosure Framework - Annual Report 2014</item>
+        <item>Disclosure Framework - Annual Report 2013</item>
+        <item>Disclosure Framework - Annual Report 2012</item>
+        <item>Disclosure Framework - Annual Report 2011</item>
+        <item>Disclosure Framework - Annual Report 2010</item>
+    </string-array>
+    <string-array name="career_item">
+        <item>The Exam Schedule for Recruitment of Probationary Officer-2015</item>
+    </string-array>
+    <string-array name="career_urls">
+        <item>http://www.nblbd.com/career/Online_insturctions_1.pdf</item>
+    </string-array>
+    <string-array name="credit_report_item">
+        <item>Credit Rating 2015</item>
+        <item>Credit Rating 2014</item>
+        <item>Credit Rating 2013</item>
+        <item>Credit Rating, June 2010</item>
+    </string-array>
+    <string-array name="credit_report_urls" formatted="false">
+        <item>http://www.nblbd.com/Credit_Rating/NBL_Credit_Rating_2015.pdf</item>
+        <item>http://www.nblbd.com/Credit_Rating/NBL_Final_Credit%20Rating_2014.pdf</item>
+        <item>http://www.nblbd.com/Credit_Rating/CreditRating2013.pdf</item>
+        <item>http://www.nblbd.com/Credit_Rating/Credit_Rating_2010.pdf</item>
+    </string-array>
+    <string-array name="financial_statement_item">
+        <item>Consolidated Balance Sheet(Un-audited) - 2016 (3rd Quarter)</item>
+        <item>Consolidated Balance Sheet(Un-audited) - 2016 (Half Yearly)</item>
+        <item>Consolidated Balance Sheet(Un-audited) - 2016 (1st Quarter)</item>
+        <item>Financial Statement - 2015</item>
+        <item>Consolidated Balance Sheet (Un-audited) - 2015 (3rd Quarter)</item>
+        <item>Consolidated Balance Sheet (Un-audited) - 2015 (Half Yearly)</item>
+        <item>Consolidated Balance Sheet(Un-audited) - 2015 (1st Quarter)</item>
+        <item>Financial Statement - 2014</item>
+        <item>Financial Statement - 2013</item>
+        <item>Financial Statements - 2012 (Half Yearly)</item>
+        <item>Financial Statements - 2012 (1st Quarter)</item>
+        <item>Financial Statements - 2011 (Without Notes)</item>
+        <item>Financial Statements - 2011 (With Notes)</item>
+        <item>Auditor\'s Report - 2010</item>
+        <item>Consolidated Balance Sheet - 2010</item>
+        <item>Chairman Message - 2009</item>
+        <item>Auditor\'s Report - 2009</item>
+        <item>Consolidated Balance Sheet - 2009</item>
+        <item>Message From Chairperson - 2008</item>
+        <item>Auditor\'s Report - 2008</item>
+        <item>Balance Sheet - 2008</item>
+    </string-array>
+    <string-array name="financial_statement_urls" formatted="false">
+        <item>http://www.nblbd.com/Bal_2016/NBL3rdquarterFinancialStatements2016_Output.pdf</item>
+        <item>http://www.nblbd.com/Bal_2016/Half-Yearly-Financial-Statements2016.pdf</item>
+        <item>http://www.nblbd.com/Bal_2016/1st-Quarter-Financial-Statements-2016.pdf</item>
+        <item>http://www.nblbd.com/Bal_2015/Financial_Statement_Dec_2015.pdf</item>
+        <item>http://www.nblbd.com/Bal_2015/NBL3rdquarterFinancialStatements2015_Output.pdf</item>
+        <item>http://www.nblbd.com/Bal_2015/Half%20Yearly%20Financial%20Statements%202015.pdf</item>
+        <item>www.nblbd.com/Bal_2015/Financial_Statements_March_2015_1st_Quater.pdf</item>
+        <item>www.nblbd.com/Bal_2014/Financial_Statements_Dec_2014.pdf</item>
+        <item>http://www.nblbd.com/Bal_2013/Balance%20Sheet_2013_NBL.pdf</item>
+        <item>http://www.nblbd.com/Bal_2012/FS%28unauted%292012.pdf</item>
+        <item>http://www.nblbd.com/Bal_2012/F_S_12_1Q.pdf</item>
+        <item>http://www.nblbd.com/Bal_2011/FinancialStatement%28without%20Notes%29.pdf</item>
+        <item>http://www.nblbd.com/Bal_2011/85-151.pdf</item>
+        <item>http://www.nblbd.com/Bal_2010/AUDIT_2010.pdf</item>
+        <item>http://www.nblbd.com/Bal_2010/NBL_REPORT_2010.pdf</item>
+        <item>http://www.nblbd.com/Bal_2008/Chairman%20Message%20%281%29.pdf</item>
+        <item>http://www.nblbd.com/Bal_2009/audit_report.pdf</item>
+        <item>http://www.nblbd.com/Bal_2009/BalanceSheet.pdf</item>
+        <item>http://www.nblbd.com/Bal_2008/Chairman%20Message%20%281%29.pdf</item>
+        <item>http://www.nblbd.com/Bal_2008/Auditor%20Report.pdf</item>
+        <item>http://www.nblbd.com/Bal_2008/Balacnsheet.pdf</item>
+    </string-array>
+    <string-array name="interest_rates_item">
+        <item>Deposit Rate</item>
+        <item>Lending Rate</item>
+    </string-array>
+    <string-array name="interest_rates_urls">
+        <item>http://www.nblbd.com/deposit_int_rate.php</item>
+        <item>http://www.nblbd.com/loan_int_rate.php</item>
+    </string-array>
+    <string-array name="overseas_operation_item">
+        <item>Contact Address</item>
+        <item>Correspondent Banking</item>
+        <item>Subsidiary Companies</item>
+        <item>Western Union</item>
+        <item>Money Gram</item>
+        <item><![CDATA[Other Ex. Comp. & Banks]]></item>
+    </string-array>
+
+    <string-array name="service_location_item">
+        <item>Branch Location</item>
+        <item>Authorize Dealer Branches</item>
+        <item>ATM Location</item>
+        <item>e-GP Service Branch</item>
+    </string-array>
+    <string-array name="transaction_charges_item">
+        <item>Schedule of charges for transactions relating to General Banking Business</item>
+        <item>Schedule of charges relating to offshore banking transaction</item>
+        <item>Schedule of charges for foreign exchange ransactions</item>
+    </string-array>
+    <string-array name="transaction_charges_urls" formatted="false">
+        <item>http://www.nblbd.com/charges/CHARGESCHEDULEGBD.pdf</item>
+        <item>http://www.nblbd.com/charges/Draft_CHARGE%20SCHEDULE_OBU.pdf</item>
+        <item>http://www.nblbd.com/charges/DraftChargeScheduleFX.pdf</item>
+    </string-array>
+    <string-array name="news_events_item">
+        <item>Core Banking System</item>
+        <item>T24 Training is going on</item>
+    </string-array>
+    <string-array name="useful_link_site_item">
+        <item>Bangladesh Bank</item>
+        <item>Board of Investment Bangladesh</item>
+        <item>Securities and Exchange Commission</item>
+        <item>Dhaka Stock Exchange Limited</item>
+        <item>Chittagong Stock Exchange Limited</item>
+        <item>Central Depository Bangladesh Ltd</item>
+        <item>Export Promotion Bureau</item>
+        <item>National Board of Revenue</item>
+        <item>Metropolitan Chamber of Commerce and Industry</item>
+        <item><![CDATA[The Chittagong Chamber of Commerce & Industry]]></item>
+        <item>Bangladesh Export Processing Zones Authority (BEPZA)</item>
+        <item>Infolady</item>
+    </string-array>
+
+    <string-array name="useful_link_site_urls">
+        <item>https://www.bb.org.bd/</item>
+        <item>http://www.boi.gov.bd/</item>
+        <item>http://www.secbd.org/</item>
+        <item>http://www.dsebd.org/</item>
+        <item>http://www.cse.com.bd/</item>
+        <item>http://www.cdbl.com.bd/</item>
+        <item>http://www.epb.gov.bd/</item>
+        <item>http://www.nbr.gov.bd/</item>
+        <item>http://www.mccibd.org/</item>
+        <item>http://www.chittagongchamber.com/</item>
+        <item>http://www.epzbangladesh.org.bd/</item>
+        <item>http://infolady.com.bd/</item>
+    </string-array>
+    <string-array name="investors_relation_item">
+        <item>Affairs of the issuer along with details of its business</item>
+        <item>Profile along with the photographs of Board of Directors/Board of Trustee and top management of the issues/trustee/asset manager</item>
+        <item>Detailed information on quarterly financial statements (at least six quarterly financial statements) and annual audited financial statements (including five years annual audited financial statements before its listing)</item>
+        <item>The Latest Director’s Report</item>
+        <item>All price sensitive information</item>
+        <item>Details of shareholding (segregate with sponsors/directors, Institutions and General Shareholders and percentage of holding)</item>
+        <item>Details of shareholdings position of sponsors/directors, trading of shares, declaration and status report of buy/sale by them</item>
+        <item>Status of compliance with the corporate governance guidelines </item>
+        <item>Contact Number of the officials of Investor\'s Relation Department</item>
+    </string-array>
+
+    <string name="activity_title_about_us">About Us</string>
+    <string name="activity_title_privacy_policy">Privacy Policy</string>
+    <string name="privacy_policy">Privacy Policy</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="drawer_menu_home_text">Home</string>
+    <string name="drawer_menu_about_us_text">About Us</string>
+    <string name="drawer_menu_product_services_text"><![CDATA[Products & Services]]></string>
+    <string name="drawer_menu_financial_status_text">Financial Status</string>
+    <string name="drawer_menu_service_location_text">Service Location</string>
+    <string name="drawer_menu_overseas_operation_text">Overseas Operation</string>
+    <string name="drawer_menu_csr_text">CSR</string>
+    <string name="drawer_menu_investors_relation_text">Investor\'s Relation</string>
+    <string name="drawer_menu_contact_us_text">Contact Us</string>
+    <string name="drawer_menu_daily_exchange_rate_text">Daily Exchange Rate</string>
+    <string name="drawer_menu_complain_cell_text">Complain Cell</string>
+    <string name="drawer_menu_news_events_text"><![CDATA[News & Events]]></string>
+    <string name="drawer_menu_career_text">Career</string>
+    <string name="main_menu_web_mail_text">Web Mail</string>
+    <string name="main_menu_web_mail_url"><![CDATA[https://accounts.google.com/AddSession?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&service=mail&hd=nblbd.com&sacu=1#identifier]]></string>
+    <string name="text_loading">Loading...</string>
+    <string name="text_finished">Finished</string>
+    <string name="text_contact_title">National Bank Limited - Head Office</string>
+    <string name="text_contact">18 Dilkusha Commercial Area, Dhaka, Bangladesh\nPhone: 88-02-9563081-5, 88-02-9587464-5,88-02-9587467, 88-02-9550823-5\nFax: 88-02-9563953, 88-02-9569404, 88-02-9554314, 88-02-9563268\nSWIFT: NBLBBDDH\nE-mail: ho@nblbd.com</string>
+    <string name="text_history"><![CDATA[National Bank Limited has its prosperous past, glorious present, prospective future and under processing projects and activities. Established as the first private sector bank fully owned by Bangladeshi entrepreneurs, NBL has been flourishing as the largest private sector Bank with the passage of time after facing many stress and strain. The members of the board of directors are creative businessmen and leading industrialists of the country. To keep pace with time and in harmony with national and international economic activities and for rendering all modern services, NBL, as a financial institution, automated all its branches with computer networks in accordance with the competitive commercial demand of time. Moreover, considering its forth-coming future, the infrastructure of the Bank has been rearranging. The expectation of all class businessmen, entrepreneurs and general public is much more to NBL. At present we have 191 branches under our branch network. In addition, our effective and diversified approach to seize the market opportunities is going on as continuous process to accommodate new customers by developing and expanding rural, SME financing and offshore banking facilities.<BR/><BR/>The emergence of National Bank Limited in the private sector was an important event in the Banking arena of Bangladesh. When the nation was in the grip of severe recession, the government took the farsighted decision to allow the private sector to revive the economy of the country. Several dynamic entrepreneurs came forward for establishing a bank with a motto to revitalize the economy of the country.<BR/><BR/>National Bank Limited was born as the first hundred percent Bangladeshi owned Bank in the private sector. From the very inception, it was the firm determination of National Bank Limited to play a vital role in the national economy. We are determined to bring back the long forgotten taste of banking services and flavors. We want to serve each one promptly and with a sense of dedication and dignity.<BR/><BR/>The then President of the People\'s Republic of Bangladesh Justice Ahsanuddin Chowdhury inaugurated the bank formally on March 28, 1983 but the first branch at 48, Dilkusha Commercial Area, Dhaka started commercial operation on March 23, 1983. The 2nd Branch was opened on 11th May 1983 at Khatungonj, Chittagong.<BR/><BR/>At present, NBL has been carrying on business through its 191 branches & Agri Branches spread all over the country. Since the very beginning, the bank has exerted much emphasis on overseas operations and handled a sizable quantum of home bound foreign remittance. It has drawing arrangements with 415 correspondents in 75 countries of the world, as well as with 37 overseas Exchange Companies located in 13 countries. NBL was the first domestic bank to establish agency arrangements with the world famous Western Union in order to facilitate quick and safe remittance of the valuable foreign exchanges earned by the expatriate Bangladeshi nationals. This has meant that the expatriates can remit their hard-earned money to the country with much ease, confidence, safety and speed.<BR/><BR/>NBL was also the first among domestic banks to introduce international Master Card in Bangladesh. In the meantime, NBL has also introduced the Visa Card and Power Card. The Bank has in its use the latest information technology services of SWIFT and REUTERS. NBL has been continuing its small credit program for disbursement of collateral free agricultural loans among the poor farmers of Barindra area in Rajshahi district for improving their livelihood.<BR/><BR/>NBL focused on all key areas covering capital adequacy, maintaining good asset quality, sound management, satisfactory earning and liquidity. As a consequence, it was possible to a record growth of 175.51 percent with Tk. 8,809.40 million pre tax profit in the year under review over the preceding year. The net profit after tax and provision stood at Tk. 6,860.34 million which was Tk. 2,070.47 million in the previous year registering a 231.34 percent rise. The total deposits increased to Tk. 102,471.83 million being 33.37 percent increase over the preceding year. Loans and advances stood at Tk.92,003.56 million in the year under report which was Tk. 65,129.289 million representing 41.26 percent rise over the preceding year. Foreign trade stood at Tk. 144,255.00 million in 2010 compared to Tk. 115,939.00 million, increased by 24.42 percent compared to that of the previous year. During 2010, the bank handled inward remittance of Tk. 49,145.30 million, 10.73 percent higher than that of the previous year. Return on Equity (ROE) registered a 77.84 percent rise over the preceding year.<BR/><BR/>National Bank, has now acquired strength and expertise to support the banking needs of the foreign investors. NBL stepped into a new arena of business and opened its Off Shore Banking Unit at Mohakhali to serve the wage earners and the foreign investors better than before.<BR/><BR/>Since its inception, the bank was aware of complying with Corporate Social Responsibility. In this direction, we have remained associated with the development of education, healthcare and have sponsored sporting and cultural activities. During times of natural disasters like floods, cyclones, landslides, we have extended our hand to mitigate the sufferings of victims. It established the National Bank Foundation in 1989 to remain involved with social welfare activities. The foundation runs the NBL Public School & College at Moghbazar where present enrolment is 1140. Besides awarding scholarship to the meritorious children of the employees, the bank has also extended financial support for their education. It also provided financial assistance to the Asiatic Society of Bangladesh at the time of their publication of Banglapedia and observance of 400 years of Dhaka City.<BR/><BR/>The Transparency and accountability of a financial institution are reflected in its Annual Report containing its Balance Sheet and Profit & Loss Account. In recognition of this, NBL was awarded Crest in 1999 and 2000, and Certificate of Appreciation in 2001 by the Institute of Chartered Accountants of Bangladesh.<BR/><BR/>The bank has a strong team of highly qualified and experienced professionals, together with an efficient Board of Directors who play a vital role in formulating and implementing policies.]]></string>
+    <string name="text_mission_vision"><![CDATA[<b>MISSION</b><BR/><BR/>Efforts for expansion of our activities at home and abroad by adding new dimensions to our banking services are being continued unabated. Alongside, we are also putting highest priority in ensuring transparency, account ablility, improved clientele service as well as to our commitment to serve the society through which we want to get closer and closer to the people of all strata. Winning an everlasting seat in the hearts of the people as a caring companion in uplifting the national economic standard through continuous upgradation and diversification of our clientele services in line with national and international requirements is the desired goal we want to reach.<BR/><BR/><BR/><b>VISION</b><BR/><BR/>Ensuring highest standard of clientele services through best application of latest information technology, making due contribution to the national economy and establishing ourselves firmly at home and abroad as a front ranking bank of the country are our cherished vision.]]></string>
+
+    <string-array name="sponsor_directors_name">
+        <item>A K M Abu Taher</item>
+        <item>Abu Taher Miah</item>
+        <item>Mohd.Abul Hossain</item>
+        <item>Zainul Haque Sikder</item>
+        <item>Khalilur Rahman</item>
+        <item>Md. Abdul Awal</item>
+        <item>Khan Mohd.Ameer</item>
+        <item>Moazzam Hossain</item>
+        <item>Habibullah</item>
+        <item>Mahbubur Rahman</item>
+        <item>Mohd. Abdul Halim</item>
+        <item>M. Nurul Islam</item>
+        <item>Rustam Ali</item>
+        <item>M. S. Asghar</item>
+        <item>Ali Akbar Khan</item>
+        <item>Abdul Alim</item>
+        <item>Md. Mizanur Rahman</item>
+        <item>M. Haider Chowdhury</item>
+    </string-array>
+
+    <string-array name="sponsor_directors_urls">
+        <item>http://www.nblbd.com/images/sponsor_directors/abu_taher.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/abu_taher_miah.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/abul_hossain.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/ZHSikder.jpg</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/khalilur_rahmah.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/abdul_awal.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/mohd.ameer.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/moazzam_hossain.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/habibullah.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/mahbubur_rahman.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/abdulHalim.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/nurul_islam.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/rustam_ali.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/ms_asghar.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/aliAkbarKhan.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/abdul_alim.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/mizanur_rahman.gif</item>
+        <item>http://www.nblbd.com/images/sponsor_directors/mhaider.gif</item>
+    </string-array>
+
+    <string-array name="board_directors_name">
+        <item>Mr. Zainul Haque Sikder, Chairman</item>
+        <item>Mrs. Monowara Sikder, Director</item>
+        <item>Ms. Parveen Haque Sikder, Director</item>
+        <item>Alhaj Khalilur Rahman, Director</item>
+        <item>Mr. Moazzam Hossain, Director</item>
+        <item>Mr. Zakaria Taher, Director</item>
+        <item>Mr. Rick Haque Sikder, Director</item>
+        <item>Mr. Ron Haque Sikder, Director</item>
+        <item>Mr. Mabroor Hossain, Director</item>
+        <item>Mr. Jonas Khan Sikder, Director</item>
+        <item>Mr. Md. Anwar Hussain, Independent Director</item>
+        <item>Mr. Md. Mahbubur Rahman Khan, Independent Director</item>
+        <item>Mr. A K M Enamul Hoque Shameem, Independent Director</item>
+        <item>Mr. A F M Shariful Islam, Managing Director</item>
+    </string-array>
+
+    <string-array name="board_directors_urls">
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/966ea-zhsikder.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/5b82b-monowara.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/8b181-phsikder.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/b191f-khalilur_rahmah.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/3500c-moazzam_hossain.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/2a487-zakariataher.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/8ba1b-rick.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/eba2d-ron.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/900a0-mabroor_hossain.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/f2b87-jonas_khan_sikder.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/2174e-md_anwar_idirector.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/476dd-mahabubur_rahman_khan.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/a849c-enamulhaque.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/17b0e-md-afm-shariful-islam.jpg</item>
+    </string-array>
+
+    <string-array name="executive_committe_name">
+        <item>Ms. Parveen Haque Sikder, Chairperson</item>
+        <item>Mrs. Monowara Sikder, Member</item>
+        <item>Alhaj Khalilur Rahman, Member</item>
+        <item>Mr. Moazzam Hossain, Member</item>
+        <item>Mr. Rick Haque Sikder, Member</item>
+        <item>Mr. Ron Haque Sikder, Member</item>
+        <item>Mr. A K M Enamul Hoque Shameem, Member</item>
+        <item>Mr. A F M Shariful Islam, Ex-Officio Member</item>
+    </string-array>
+
+    <string-array name="executive_committe_urls">
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/8b181-phsikder.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/5b82b-monowara.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/b191f-khalilur_rahmah.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/3500c-moazzam_hossain.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/8ba1b-rick.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/eba2d-ron.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/a849c-enamulhaque.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/17b0e-md-afm-shariful-islam.jpg</item>
+    </string-array>
+
+    <string-array name="audit_committe_name">
+        <item>Mr. Md. Anwar Hussain, Chairman</item>
+        <item>Mr. Mabroor Hossain, Member</item>
+        <item>Mr. Md. Mahbubur Rahman Khan, Member</item>
+    </string-array>
+
+    <string-array name="audit_committe_urls">
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/2174e-md_anwar_idirector.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/900a0-mabroor_hossain.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/476dd-mahabubur_rahman_khan.gif</item>
+    </string-array>
+
+    <string-array name="risk_committee_name">
+        <item>Ms. Parveen Haque Sikder, Chairperson</item>
+        <item>Mr. Ron Haque Sikder, Member</item>
+        <item>Mr. Md. Anwar Hussain, Member</item>
+    </string-array>
+
+    <string-array name="risk_committee_urls">
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/8b181-phsikder.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/eba2d-ron.gif</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/2174e-md_anwar_idirector.jpg</item>
+    </string-array>
+
+    <string-array name="management_committe_name">
+        <item>Mr. A F M Shariful Islam, Managing Director, Chairman</item>
+        <item>Mr. Choudhury Moshtaq Ahmed, Additional Managing Director, Member</item>
+        <item>Mr. Md. Badiul Alam, Additional Managing Director, Member</item>
+        <item>Mr. Wasif Ali Khan, Additional Managing Director, Member</item>
+        <item>Mr. A S M Bulbul, Deputy Managing Director, Member</item>
+        <item>Mr. Abdus Sobhan Khan, Deputy Managing Director, Member</item>
+        <item>Mr. Shah Syed Abdul Bari, Deputy Managing Director, Member Secretary</item>
+        <item>Mr. Md. Farid Uddin Ahmed, Deputy Managing Director, Member</item>
+        <item>Mr. Sayed Rois Uddin, Senior Executive Vice President, Member</item>
+        <item>Mr. Iftekhar Hossain Chowdhury, Senior Executive Vice President, Member</item>
+        <item>Mr. Kazi Kamal Uddin Ahmed, Executive Vice President, Member</item>
+        <item>Mr. Md. Mahfuzur Rahman, Executive Vice President, Member</item>
+        <item>Mr. Hossain Akhtar Chowdhury, Executive Vice President, Member</item>
+        <item>Mr. Arun Kumar Halder, Executive Vice President, Member</item>
+        <item>Mr. Md. Azim Uddin, Executive Vice President, Member</item>
+        <item>Lt. Col. (Retd.) S M Sajjad Hossain, Executive Vice President, Member</item>
+        <item>Mr. Md. Moniruzzaman, Executive Vice President, Member</item>
+        <item>Mr. Md. Abdul Wahab, Senior Vice President, Member</item>
+        <item>Mr. Krishna Kamal Ghose, Senior Vice President, Member</item>
+        <item>Mr. Mohammad Kamrul Hasan Mithu, Vice President, Member</item>
+        <item>Major (Retd.) K M Enayetul Haque, Vice President, Member</item>
+        <item>Ms. Salima Akhtar, Vice President, Member</item>
+        <item>Mr. Tanvir Subhan, Vice President, Member</item>
+        <item>Mr. Md. Rafiqul Islam, Vice President, Member</item>
+        <item>Mr. A K M Altaf Hussain, Vice President, Member</item>
+        <item>Mr. Sharafat Ullah Chowdhury, Vice President, Member</item>
+        <item>Mr. AKM Salah Uddin Khan, Vice President, Member</item>
+    </string-array>
+
+    <string-array name="management_committe_urls">
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/17b0e-md-afm-shariful-islam.jpg</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+    </string-array>
+
+    <string-array name="asset_liability_committe_name">
+        <item>Mr. A F M Shariful Islam, Managing Director, Chairman</item>
+        <item>Mr. Choudhury Moshtaq Ahmed, Additional Managing Director, Member</item>
+        <item>Mr. Wasif Ali Khan, Additional Managing Director, Member</item>
+        <item>Mr. Md. Badiul Alam, Additional Managing Director, Member</item>
+        <item>Mr. A. S. M. Bulbul, Deputy Managing Director, Member</item>
+        <item>Mr. Abdus Sobhan Khan, Deputy Managing Director, Member Secretary</item>
+        <item>Mr. Shah Syed Abdul Bari, Deputy Managing Director, Member</item>
+        <item>Mr. Iftekhar Hossain Chowdhury, Senior Executive Vice President, Member</item>
+        <item>Mr. Arun Kumar Halder, Executive Vice President, Member</item>
+        <item>Md. Azim Uddin, Executive Vice President, Member</item>
+        <item>Lt. Col. S M Sajjad Hossain (Rtd.), Executive Vice President, Member</item>
+        <item>Mr. Md. Abdul Wahab, Senior Vice President, Member</item>
+        <item>Mr. Krishna Kamal Ghose, Senior Vice President, Member</item>
+        <item>Ms. Salima Akhtar, Vice President, Member</item>
+        <item>Mr. AKM Salah Uddin Khan, Senior Asst. Vice President, Member</item>
+        <item>Mr. Nazmul Chowdhury, Principal Officer, Member</item>
+    </string-array>
+
+    <string-array name="asset_liability_committe_urls">
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/director/17b0e-md-afm-shariful-islam.jpg</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/z99ssvrjlfbo5b7/female.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+        <item>https://www.dropbox.com/s/5sroiphkv5bilr9/male.png</item>
+    </string-array>
+
+    <string-array name="gallary_image_urls">
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/a3ca3-new.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/88279-dsc_0173.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/10683-nbl_photo_opening-ceremony_usa2.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/3202d-dsc_0116-copy.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/7918d-nbl-001.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/e6873-nbl-(mou)-pic-01.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/11b42-03.-nbl-bhairab-bazar-br.-23-02-2015.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/566a5-03.-nbl-pic-25-02-2015.jpg</item>
+        <item>http://www.nblbd.com/nbladmin_panel/assets/img/photo/ce558-nbl-donate-to-pm-21-09-2014-02.4.jpg</item>
+    </string-array>
+
+    <string-array name="complain_cell_content">
+        <item><![CDATA[<b>Mr. Md. Abdul Wahab<BR/>Senior Vice President</b><BR/><b>Tel:</b> +880-2-9650867<BR/><b>Cell:</b> 01730-352726<BR/>Fax: +880-2-9650866<BR/>Email: gbd@nblbd.com]]></item>
+        <item><![CDATA[<b>Mr. Mohammad Forhad Hossain<BR/>Senior Assistant Vice President</b><BR/><b>Tel:</b> +880-2-9650867<BR/><b>Cell:</b> 01718-125571<BR/><b>Fax:</b> +880-2-9650866<BR/><b>Email:</b> gbd@nblbd.com]]></item>
+        <item><![CDATA[<b>Mr. Md. Jalal Uddin Haider<BR/>Assistant Vice President</b><BR/><b>Tel:</b> +880-2-9650867<BR/><b>Cell:</b> 01911-714874<BR/><b>Fax:</b> +880-2-9650866<BR/><b>Email:</b> gbd@nblbd.com]]></item>
+        <item><![CDATA[<b>Mr. A S M Shahriar Hossain<BR/>Executive Officer</b><BR/><b>Tel:</b> +880-2-9650867<BR/><b>Fax:</b> +880-2-9650866<BR/><b>Email:</b> gbd@nblbd.com]]></item>
+        <item><![CDATA[<b>Mr. Muhammad Kawsar Uddin Ahmed<BR/>First Executive Officer</b><BR/><b>Tel:</b> +880-2-9650867<BR/><b>Fax:</b> +880-2-9650866<BR/><b>Email:</b> gbd@nblbd.com]]></item>
+        <item><![CDATA[<b>Mr. Nahid Hasan<BR/>Junior Officer</b><BR/><b>Tel:</b> +880-2-9650867<BR/><b>Fax:</b> +880-2-9650866<BR/><b>Email:</b> gbd@nblbd.com]]></item>
+    </string-array>
+
+    <string-array name="daily_exchange_rate_content">
+        <item><![CDATA[<b>Currency: USD<BR/>Sell Rate:</b> 79.45<BR/><b>Buy Rate:</b> 78.45]]></item>
+        <item><![CDATA[<b>Currency: EUR<BR/>Sell Rate:</b> 86.62<BR/><b>Buy Rate:</b> 83.96]]></item>
+        <item><![CDATA[<b>Currency: GBP<BR/>Sell Rate:</b> 100.14<BR/><b>Buy Rate:</b> 97.14]]></item>
+        <item><![CDATA[<b>Currency: JPY<BR/>Sell Rate:</b> 0.71<BR/><b>Buy Rate:</b> 0.68]]></item>
+        <item><![CDATA[<b>Currency: CHF<BR/>Sell Rate:</b> 82.16<BR/><b>Buy Rate:</b> 77.82]]></item>
+        <item><![CDATA[<b>Currency: AUD<BR/>Sell Rate:</b> 62.13<BR/><b>Buy Rate:</b> 58.51]]></item>
+        <item><![CDATA[<b>Currency: CAD<BR/>Sell Rate:</b> 61.59<BR/><b>Buy Rate:</b> 58.01]]></item>
+        <item><![CDATA[<b>Currency: SGD<BR/>Sell Rate:</b> 58.23<BR/><b>Buy Rate:</b> 54.77]]></item>
+    </string-array>
+
+    <string-array name="branch_content">
+        <item><![CDATA[<b>BRANCH NAME: Abdullahpur Branch<BR/>BRANCE CODE:</b> 116<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Angaria Branch<BR/>BRANCE CODE:</b> 186<BR/><b>DISTRICT:</b> Shariatpur]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Asadgate Branch<BR/>BRANCE CODE:</b> 147<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Ati Bazar Branch<BR/>BRANCE CODE:</b> 191<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Babu Bazar Branch<BR/>BRANCE CODE:</b> 31<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Baghrabazar Branch<BR/>BRANCE CODE:</b> 124<BR/><b>DISTRICT:</b> Munshigonj]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Baluchar Branch<BR/>BRANCE CODE:</b> 175<BR/><b>DISTRICT:</b> Munshigonj]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Banani Branch<BR/>BRANCE CODE:</b> 106<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bandura Branch<BR/>BRANCE CODE:</b> 46<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bangshal Road Branch<BR/>BRANCE CODE:</b> 12<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhagyakul Branch<BR/>BRANCE CODE:</b> 151<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhairab Bazar Branch<BR/>BRANCE CODE:</b> 180<BR/><b>DISTRICT:</b> Kishoregonj]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhaluka Branch<BR/>BRANCE CODE:</b> 100<BR/><b>DISTRICT:</b> Mymensingh]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhanga Branch<BR/>BRANCE CODE:</b> 83<BR/><b>DISTRICT:</b> Faridpur]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhedergonj Branch<BR/>BRANCE CODE:</b> 145<BR/><b>DISTRICT:</b> Shariatput]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhawlaganj Branch<BR/>BRANCE CODE:</b> 190<BR/><b>DISTRICT:</b> Panchagarh]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Birampur Branch<BR/>BRANCE CODE:</b> 167<BR/><b>DISTRICT:</b> Dinajpur]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Burimari Branch<BR/>BRANCE CODE:</b> 189<BR/><b>DISTRICT:</b> Lalmonirhat]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Dinajpur Branch<BR/>BRANCE CODE:</b> 37<BR/><b>DISTRICT:</b> Dinajpur]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Gaibandha Branch<BR/>BRANCE CODE:</b> 99<BR/><b>DISTRICT:</b> Gaibandha]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Panchagarh Branch<BR/>BRANCE CODE:</b> 141<BR/><b>DISTRICT:</b> Panchagarh]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Rangpur Branch<BR/>BRANCE CODE:</b> 6<BR/><b>DISTRICT:</b> Rangpur]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Roumari Branch<BR/>BRANCE CODE:</b> 178<BR/><b>DISTRICT:</b> Kurigram]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Saidpur Branch<BR/>BRANCE CODE:</b> 38<BR/><b>DISTRICT:</b> Saidpur]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Thakurgaon Branch<BR/>BRANCE CODE:</b> 74<BR/><b>DISTRICT:</b> Thakurgaon]]></item>
+    </string-array>
+    <string-array name="dealer_branch_content">
+        <item><![CDATA[<b>BRANCH NAME: Agrabad Branch<BR/>BRANCE CODE:</b> 4<BR/><b>DISTRICT:</b> Chittagong]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Babu Bazar Branch<BR/>BRANCE CODE:</b> 31<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Banani Branch<BR/>BRANCE CODE:</b> 106<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bangshal Road Branch<BR/>BRANCE CODE:</b> 12<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Barisal Branch<BR/>BRANCE CODE:</b> 13<BR/><b>DISTRICT:</b> Barisal]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bogra Branch<BR/>BRANCE CODE:</b> 14<BR/><b>DISTRICT:</b> Bogra]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Brahmanbaria Branch<BR/>BRANCE CODE:</b> 22<BR/><b>DISTRICT:</b> Brahmanbaria]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Chapai Nawabgonj Branch<BR/>BRANCE CODE:</b> 53<BR/><b>DISTRICT:</b> Chapai Nawabgonj]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Dhanmondi Branch<BR/>BRANCE CODE:</b> 63<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Dilkusha Branch<BR/>BRANCE CODE:</b> 1<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Elephant Road Branch<BR/>BRANCE CODE:</b> 15<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Foreign Exchange Branch<BR/>BRANCE CODE:</b> 21<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Gulshan Branch<BR/>BRANCE CODE:</b> 67<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Imamgonj Branch<BR/>BRANCE CODE:</b> 3<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Islampur Branch<BR/>BRANCE CODE:</b> 54<BR/><b>DISTRICT:</b> Dhaka]]></item>
+    </string-array>
+    <string-array name="atm_content">
+        <item><![CDATA[<b>BRANCH NAME:</b> Dhanmondi<BR/><b>DISTRICT:</b> Dhaka<BR/><b>ADDRESS:</b> 761, Satmashjid Road, Dhanmondi, Dhaka.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Uttara<BR/><b>DISTRICT:</b> Dhaka<BR/><b>ADDRESS:</b> Hossain Tower, Next to over Bridge, Uttara, Dhaka.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Dilkusha<BR/><b>DISTRICT:</b> Dhaka<BR/><b>ADDRESS:</b> 48, Dilkusha C/A, Dhaka.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Gulshan<BR/><b>DISTRICT:</b> Dhaka<BR/><b>ADDRESS:</b> 97/1, Gulshan Avenue, Gulshan, Dhaka.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Malibagh<BR/><b>DISTRICT:</b> Dhaka<BR/><b>ADDRESS:</b> 474, Malibagh, DIT Road, Dhaka.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Karwan Bazar<BR/><b>DISTRICT:</b> Dhaka<BR/><b>ADDRESS:</b> BTMC Bhavan, Karawan Bazar, Dhaka.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Mymensingh<BR/><b>DISTRICT:</b> Mymensingh<BR/><b>ADDRESS:</b> 29/1, durgabari Road, Mymensingh.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Bogra<BR/><b>DISTRICT:</b> Bogra<BR/><b>ADDRESS:</b> Baragola Bazar, Bogra.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Dhanmondi<BR/><b>DISTRICT:</b> Dhaka<BR/><b>ADDRESS:</b> Administritive Building,Dhaka University, Dhaka.]]></item>
+        <item><![CDATA[<b>BRANCH NAME:</b> Z.H.S.W.M.C.<BR/><b>DISTRICT:</b> Dhaka<BR/><b>ADDRESS:</b> Z. H. Sikder Women\'s Medical College, Rayer Bazar, Dhaka.]]></item>
+    </string-array>
+    <string-array name="egp_branch_content">
+        <item><![CDATA[<b>BRANCH NAME: Anderkilla Branch<BR/>BRANCE CODE:</b> 101<BR/><b>DISTRICT:</b> Chittagong]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Banani Branch<BR/>BRANCE CODE:</b> 106<BR/><b>DISTRICT:</b> Dhaka]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Barisal Branch<BR/>BRANCE CODE:</b> 13<BR/><b>DISTRICT:</b> Barisal]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhaluka Branch<BR/>BRANCE CODE:</b> 100<BR/><b>DISTRICT:</b> Mymensingh]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhedergonj Branch<BR/>BRANCE CODE:</b> 145<BR/><b>DISTRICT:</b> Shariatput]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bhola Branch<BR/>BRANCE CODE:</b> 56<BR/><b>DISTRICT:</b> Bhola]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Birampur Branch<BR/>BRANCE CODE:</b> 167<BR/><b>DISTRICT:</b> Dinajpur]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Bogra Branch<BR/>BRANCE CODE:</b> 14<BR/><b>DISTRICT:</b> Bogra]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Brahmanbaria Branch<BR/>BRANCE CODE:</b> 22<BR/><b>DISTRICT:</b> Brahmanbaria]]></item>
+        <item><![CDATA[<b>BRANCH NAME: CDA Avenue Branch<BR/>BRANCE CODE:</b> 122<BR/><b>DISTRICT:</b> Chittagong]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Chapai Nawabgonj Branch<BR/>BRANCE CODE:</b> 53<BR/><b>DISTRICT:</b> Chapai Nawabgonj]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Char Fashion Branch<BR/>BRANCE CODE:</b> 89<BR/><b>DISTRICT:</b> Bhola]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Chawk Bazar Branch<BR/>BRANCE CODE:</b> 102<BR/><b>DISTRICT:</b> Chittagong]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Chhayfullah Kandi Bazar<BR/>BRANCE CODE:</b> 163<BR/><b>DISTRICT:</b> Brahmanbaria]]></item>
+        <item><![CDATA[<b>BRANCH NAME: Chowgacha Branch<BR/>BRANCE CODE:</b> 84<BR/><b>DISTRICT:</b> Jessore]]></item>
+    </string-array>
+
+    <string-array name="about_developer_content">
+        <item><![CDATA[<b>Name: Zoarder Al Muktadir<BR/>Designation:</b> Chief Executive Officer<BR/><b>Organization:</b> NURDCODER<BR/><b>Contact:</b> 01914085726, 01921128306<BR/><b>E-mail:</b> to_muktadir@yahoo.com]]></item>
+        <item><![CDATA[<b>Name: Arup Kumar Pramanik<BR/>Designation:</b> Chief Technical Officer<BR/><b>Organization:</b> NURDCODER<BR/><b>Contact:</b> 01717553820, 01683264888<BR/><b>E-mail:</b> insight.arup@gmail.com]]></item>
+    </string-array>
+
+
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="copyright">Copyright 2016 - NURDCODER. All Rights Reserved.</string>
+    <string name="main_menu_exit_app_text">Exit App</string>
+    <string name="main_menu_about_developer_text">About Developer</string>
+    <string name="no_data_available">No Data Available</string>
+    <string name="main_menu_search_text">Search</string>
+    <string name="main_menu_search_url">https://www.google.com/search?sitesearch=nblbd.com</string>
+    <string name="drawer_menu_bm_learning_material_text">BM Learning Material</string>
+    <string name="drawer_menu_campaign_information_text">Campaign Information</string>
+    <string name="drawer_menu_snap_solve_text"><![CDATA[Snap & Solve]]></string>
+    <string name="drawer_menu_order_management_text">Order Management</string>
+    <string name="drawer_menu_store_locator_text">Store Locator</string>
+    <string name="share_title">Share Via…</string>
+    <string name="action_share">Share</string>
+    <string name="call_for_appointment">Call for Order</string>
+</resources>

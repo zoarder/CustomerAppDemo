@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/csr_item_layout_parent_cv"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/spacing_5dp"
+    card_view:cardCornerRadius="@dimen/spacing_5dp"
+    card_view:elevation="@dimen/spacing_5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/custom_info_window_doctor_image_nib"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/custom_info_window_doctor_name_tv"
+                style="?android:textAppearanceMedium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/custom_info_window_doctor_specialities_tv"
+                style="?android:textAppearanceSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/spacing_15dp"
+        android:layout_height="@dimen/spacing_15dp"
+        android:layout_gravity="center_vertical|end"
+        android:layout_marginEnd="@dimen/spacing_10dp"
+        android:layout_marginRight="@dimen/spacing_10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrow_1"
+        android:tint="@color/colorPrimaryDark" />
+
+</android.support.v7.widget.CardView>

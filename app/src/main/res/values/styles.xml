@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <!--<item name="colorSecondary">@color/colorSecondary</item>-->
+        <!--<item name="colorSecondaryDark">@color/colorSecondaryDark</item>-->
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="LinearProgress" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FloatingSearchViewStyle">
+        <item name="floatingSearch_backgroundColor">@color/floatingSearch_backgroundColor</item>
+        <item name="floatingSearch_viewTextColor">@color/floatingSearch_viewTextColor</item>
+        <item name="floatingSearch_hintTextColor">@color/floatingSearch_hintTextColor</item>
+        <item name="floatingSearch_dividerColor">@color/floatingSearch_dividerColor</item>
+        <item name="floatingSearch_clearBtnColor">@color/floatingSearch_clearBtnColor</item>
+        <item name="floatingSearch_leftActionColor">@color/floatingSearch_leftActionColor</item>
+        <item name="floatingSearch_menuItemIconColor">@color/floatingSearch_menuItemIconColor</item>
+        <item name="floatingSearch_suggestionRightIconColor">
+            @color/floatingSearch_suggestionRightIconColor
+        </item>
+        <item name="floatingSearch_actionMenuOverflowColor">
+            @color/floatingSearch_actionMenuOverflowColor
+        </item>
+    </style>
+</resources>

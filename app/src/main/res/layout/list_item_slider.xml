@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+<com.android.volley.toolbox.NetworkImageView
+    android:id="@+id/list_item_slider_image"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:contentDescription="@string/app_name"
+    android:scaleType="centerInside" />
+
+<!--<ProgressBar-->
+<!--android:id="@+id/list_item_slider_progress"-->
+<!--style="@style/LinearProgress"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content"-->
+<!--android:layout_gravity="bottom"-->
+<!--android:indeterminate="false"-->
+<!--android:max="100" />-->
+</FrameLayout>

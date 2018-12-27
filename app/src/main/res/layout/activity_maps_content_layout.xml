@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_maps_content_layout_parent_vll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.afchealth.afcpharmacyonline.activities.MapsActivity"
+    tools:showIn="@layout/activity_maps">
+
+    <LinearLayout
+        android:id="@+id/activity_maps_content_layout_map_vll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/activity_maps_content_layout_button_vll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".10"
+        android:background="@color/colorButton_1"
+        android:orientation="vertical"
+        android:padding="@dimen/spacing_10dp"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/custom_info_window_call_bt"
+            style="?android:textAppearanceMedium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_primary_color_button_rounded"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="@string/call_for_appointment"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
