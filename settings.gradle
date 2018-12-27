@@ -1,1 +1,1 @@
-include ':app', ':Sweet Alert Dialog', ':floatingsearchview_library'
+include ':app', ':Sweet Alert Dialog', ':Floating Search View'
